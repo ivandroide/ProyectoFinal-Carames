@@ -1,0 +1,137 @@
+.body {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+    overflow: auto;
+    background-color: #cecdcd;
+
+}
+
+.button {
+
+    padding: 5px;
+    position: relative;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+.buttonHover:hover {
+
+    background-color: #cecbec;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.buttonOK {
+
+    background-color: #cbeeda;
+
+}
+
+.buttonError {
+
+    background-color: #f3dad7;
+
+}
+
+
+.div1 {
+
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div2 {
+
+    height: 300px;  
+    float: left;
+    width: 30%;
+    display: block;
+
+}
+
+.div3 {
+
+    font-size: 35px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    display: flex;
+    height: 300px;
+    width: 70%;
+    float: left;
+    text-underline-offset: 5px;
+    letter-spacing: 0.25em;
+
+}
+
+.div4 {
+
+    clear: both;
+    width: 50%;
+    margin-bottom: 5px;
+
+}
+
+.border {
+
+    border: 0px solid black;
+    box-sizing: border-box;
+
+}
+
+
+.swal-border-error {
+
+    border-color: red !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    font-family: "Montserrat", sans-serif !important;
+    border-radius: 5px !important;
+    position: fixed !important;
+    top: 5% !important;
+
+}
+
+.swal-border-ok {
+
+    border-color: green !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    font-family: "Montserrat", sans-serif !important;
+    border-radius: 5px !important;
+    position: fixed !important;
+    top: 5% !important;
+
+}
+
+
+.divMain {
+
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    width: fit-content;
+    block-size: fit-content;
+    height: fit-content;
+    object-fit: contain;
+    clear: both;
+    width: 60%;
+    background-color: white;
+
+}

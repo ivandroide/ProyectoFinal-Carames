@@ -1,0 +1,338 @@
+[
+    {
+        "id": 1,
+        "nombre": "Abeja"
+    },
+    {
+        "id": 2,
+        "nombre": "Anguila"
+    },
+    {
+        "id": 3,
+        "nombre": "Ardilla"
+    },
+    {
+        "id": 4,
+        "nombre": "Ballena"
+    },
+    {
+        "id": 5,
+        "nombre": "Beluga"
+    },
+    {
+        "id": 6,
+        "nombre": "Bisonte"
+    },
+    {
+        "id": 7,
+        "nombre": "Buitre"
+    },
+    {
+        "id": 8,
+        "nombre": "Burro"
+    },
+    {
+        "id": 9,
+        "nombre": "Caballo"
+    },
+    {
+        "id": 10,
+        "nombre": "Cabra"
+    },
+    {
+        "id": 11,
+        "nombre": "Canguro"
+    },
+    {
+        "id": 12,
+        "nombre": "Cocodrilo"
+    },
+    {
+        "id": 13,
+        "nombre": "Dingo"
+    },
+    {
+        "id": 14,
+        "nombre": "Dromedario"
+    },
+    {
+        "id": 15,
+        "nombre": "Elefante"
+    },
+    {
+        "id": 16,
+        "nombre": "Escarabajo"
+    },
+    {
+        "id": 17,
+        "nombre": "Flamenco"
+    },
+    {
+        "id": 18,
+        "nombre": "Foca"
+    },
+    {
+        "id": 19,
+        "nombre": "Frailecillo"
+    },
+    {
+        "id": 20,
+        "nombre": "Gacela"
+    },
+    {
+        "id": 21,
+        "nombre": "Gallina"
+    },
+    {
+        "id": 22,
+        "nombre": "Ganso"
+    },
+    {
+        "id": 23,
+        "nombre": "Gato"
+    },
+    {
+        "id": 24,
+        "nombre": "Gorila"
+    },
+    {
+        "id": 25,
+        "nombre": "Hiena"
+    },
+    {
+        "id": 26,
+        "nombre": "Hormiga"
+    },
+    {
+        "id": 27,
+        "nombre": "Ibis"
+    },
+    {
+        "id": 28,
+        "nombre": "Iguana"
+    },
+    {
+        "id": 29,
+        "nombre": "Impala"
+    },
+    {
+        "id": 30,
+        "nombre": "Irukandji"
+    },
+    {
+        "id": 31,
+        "nombre": "Jaguar"
+    },
+    {
+        "id": 32,
+        "nombre": "Jerbo"
+    },
+    {
+        "id": 33,
+        "nombre": "Jilguero"
+    },
+    {
+        "id": 34,
+        "nombre": "Jirafa"
+    },
+    {
+        "id": 35,
+        "nombre": "Kiwi"
+    },
+    {
+        "id": 36,
+        "nombre": "Koala"
+    },
+    {
+        "id": 37,
+        "nombre": "Krill"
+    },
+    {
+        "id": 38,
+        "nombre": "Lagartija"
+    },
+    {
+        "id": 39,
+        "nombre": "Langosta"
+    },
+    {
+        "id": 40,
+        "nombre": "Lechuza"
+    },
+    {
+        "id": 41,
+        "nombre": "Liebre"
+    },
+    {
+        "id": 42,
+        "nombre": "Macaco"
+    },
+    {
+        "id": 43,
+        "nombre": "Mamba"
+    },
+    {
+        "id": 44,
+        "nombre": "Mantis"
+    },
+    {
+        "id": 45,
+        "nombre": "Mapache"
+    },
+    {
+        "id": 46,
+        "nombre": "Medusa"
+    },
+    {
+        "id": 47,
+        "nombre": "Narval"
+    },
+    {
+        "id": 48,
+        "nombre": "Nautilo"
+    },
+    {
+        "id": 49,
+        "nombre": "Novillo"
+    },
+    {
+        "id": 50,
+        "nombre": "Nutria"
+    },
+    {
+        "id": 51,
+        "nombre": "Ñu"
+    },
+    {
+        "id": 52,
+        "nombre": "Ocelote"
+    },
+    {
+        "id": 53,
+        "nombre": "Orca"
+    },
+    {
+        "id": 54,
+        "nombre": "Ornitorrinco"
+    },
+    {
+        "id": 55,
+        "nombre": "Oso"
+    },
+    {
+        "id": 56,
+        "nombre": "Oveja"
+    },
+    {
+        "id": 57,
+        "nombre": "Paloma"
+    },
+    {
+        "id": 58,
+        "nombre": "Panda"
+    },
+    {
+        "id": 59,
+        "nombre": "Pantera"
+    },
+    {
+        "id": 60,
+        "nombre": "Perro"
+    },
+    {
+        "id": 61,
+        "nombre": "Quetzal"
+    },
+    {
+        "id": 62,
+        "nombre": "Quirquincho"
+    },
+    {
+        "id": 63,
+        "nombre": "Rana"
+    },
+    {
+        "id": 64,
+        "nombre": "Renacuajo"
+    },
+    {
+        "id": 65,
+        "nombre": "Rinoceronte"
+    },
+    {
+        "id": 66,
+        "nombre": "Ruiseñor"
+    },
+    {
+        "id": 67,
+        "nombre": "Salamandra"
+    },
+    {
+        "id": 68,
+        "nombre": "Serpiente"
+    },
+    {
+        "id": 69,
+        "nombre": "Termita"
+    },
+    {
+        "id": 70,
+        "nombre": "Tigre"
+    },
+    {
+        "id": 71,
+        "nombre": "Urraca"
+    },
+    {
+        "id": 72,
+        "nombre": "Vaca"
+    },
+    {
+        "id": 73,
+        "nombre": "Varano"
+    },
+    {
+        "id": 74,
+        "nombre": "Venado"
+    },
+    {
+        "id": 75,
+        "nombre": "Vinchuca"
+    },
+    {
+        "id": 76,
+        "nombre": "Vizcacha"
+    },
+    {
+        "id": 77,
+        "nombre": "Wallaby"
+    },
+    {
+        "id": 78,
+        "nombre": "Wombat"
+    },
+    {
+        "id": 79,
+        "nombre": "Yak"
+    },
+    {
+        "id": 80,
+        "nombre": "Yegua"
+    },
+    {
+        "id": 81,
+        "nombre": "Zancudo"
+    },
+    {
+        "id": 82,
+        "nombre": "Zorro"
+    },
+    {
+        "id": 83,
+        "nombre": "Zorrino"
+    },
+    {
+        "id": 84,
+        "nombre": "Zorzal"
+    }
+]
