@@ -16,7 +16,7 @@ let obj_progreso = {};
 let palabra_elegida = '';
 let errores = 0;
 let images = [];
-
+let varDiv3 = '';
 
 
 //-------------- DEFINICIÓN DE FUNCIONES
@@ -100,7 +100,8 @@ const cont_div4 = document.getElementById("div4");
 
 cont_div1.innerHTML = `<input id ="refresh" type="image" src="./images/repeat.svg"  class="button buttonHover"/>`;
 cont_div2.innerHTML = `<img src="${images[errores].src}"></img>`;
-cont_div3.innerHTML = `<p id="palabra" class="palabra">`;
+
+varDiv3 = `<p id="palabra">`;
 
 
 // Llamado a función para obtención de listado de animales y selección de animal individual a adivinar.
@@ -118,14 +119,15 @@ consultarAnimales().then(animales => {
         Object.defineProperty(obj_progreso, campo, { value: '_', enumerable: true, writable: true });
 
         // Se aprovecha la cantidad de iteraciones para imprimir ayuda visual en pantalla.
-        cont_div3.innerHTML += `_ `;
+        varDiv3 += `_ `;
 
     }
 
+    varDiv3 += `</p>`;
+    cont_div3.innerHTML = varDiv3;
+
 })
 
-
-cont_div3.innerHTML += `</p>`;
 
 array_Abecedario.forEach((element, index) => {
 
@@ -181,10 +183,6 @@ cont_div4.onclick = (e) => {
             // Se verifica si palabra aún posee letras pendientes a adivinar.   
             if (!(Object.values(obj_progreso).includes('_'))) {
 
-                // Impresión final del progreso (palabra completa)           
-                console.log(Object.values(obj_progreso));
-                victoria = 'X';
-
                 // Se deshabilita el uso de todas las letras y su animación de resaltado.
                 array_Abecedario.forEach((element, index) => {
 
@@ -218,20 +216,24 @@ cont_div4.onclick = (e) => {
 
         }
 
-        cont_div1.innerHTML = `<input id ="refresh" type="image" src="./images/repeat.svg" class="button buttonHover"/> `;
+        cont_div1.innerHTML = `<input id ="refresh" type="image" src="./images/repeat.svg" class="button buttonHover"/>`;
         cont_div2.innerHTML = `<img src="${images[errores].src}"></img>`;
-        cont_div3.innerHTML = `<p id="palabra" class="palabra">`;
+
+
+        // Contenido de cont_div3 se arma mediante variable auxiliar para evitar que se autocierren las etiquetas de párrafo.
+        varDiv3 = `<p id="palabra">`;
 
 
         // Se refresca impresión de progreso en pantalla.
         for (let a = 0; a < palabra_elegida.length; a++) {
 
             campo = 'letra_' + a;
-            cont_div3.innerHTML += `${obj_progreso[campo]} `;
+            varDiv3 += `${obj_progreso[campo]} `;
 
         }
 
-        cont_div3.innerHTML += `</p>`;
+        varDiv3 += `</p>`;
+        cont_div3.innerHTML = varDiv3;
 
 
         // Se verifica si se ha alcanzado la cantidad máxima de errores posibles. 
